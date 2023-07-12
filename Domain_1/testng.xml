@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.jobiak.domain.tests.homepage.TestCase_About_Page"/>
+      <class name="org.jobiak.domain.tests.homepage.TestCase_Contact_Page"/>
+      <class name="org.jobiak.domain.tests.homepage.TestCase_Terms_Page"/>
+      <class name="org.jobiak.domain.tests.homepage.TestCase_PnP_Page"/>
+      <class name="org.jobiak.domain.tests.homepage.TestCase_Title_Loc_Search"/>
+      <class name="org.jobiak.domain.tests.homepage.TestCase_FeaturedJobs"/>
+      <class name="org.jobiak.domain.tests.homepage.TestCase_Companies_Page"/>
+      <class name="org.jobiak.domain.tests.landingpage.TestCase_H_F_LP"/>
+      <class name="org.jobiak.domain.tests.landingpage.TestCase_Search_LandingPage"/>
+      <class name="org.jobiak.domain.tests.searchpage.TestCase_Search_JobType"/>
+      <class name="org.jobiak.domain.tests.searchpage.TestCase_Search_DatePosted"/>
+      <class name="org.jobiak.domain.tests.searchpage.TestCase_Search_Company"/>
+      <class name="org.jobiak.domain.tests.searchpage.TestCase_Search_Location"/>
+      <class name="org.jobiak.domain.tests.searchpage.TestCase_Search_Title"/>
+      <class name="org.jobiak.domain.tests.searchpage.TestCase_Search_Category"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
